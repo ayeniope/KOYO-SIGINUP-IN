@@ -149,9 +149,9 @@ main img{
  }
  input:not(#rad,#check),#country{
     font-size:5px;
-     line-height:8vh;
+     line-height:10vh;
      border-radius:5px;
-     padding:3px 5px;
+     padding:10px 10px;
      width:100%;
 }
 input{
