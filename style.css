@@ -139,7 +139,8 @@ main{
     width:100%;
     padding: 10px 5px;
     display: block;
- main img{
+    }
+main img{
      display: none;
  } 
  .form-container{
