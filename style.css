@@ -149,6 +149,8 @@ nav{
  }
  input:not(#rad,#check),#country{
     font-size:8px;
+     margin-bottom:1px;
+     margin-top:30px
 }
 form button{ 
     padding:5px 40px;
