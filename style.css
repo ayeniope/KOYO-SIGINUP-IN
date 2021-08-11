@@ -140,13 +140,11 @@ main{
     display: block;
  main img{
      display: none;
- }
-  .form-container{ 
-   
+ } 
  .form-container{
      width: 100%;
      padding: 5px;
-/*     line-height: 3vh; */
+    line-height: 2vh;
  }
  input:not(#rad,#check),#country{
     font-size:5px;
@@ -161,6 +159,9 @@ form button{
  .signupimg,.signinimg {
     margin-top:0px;
     display: none;
+}
+  #radbtn{
+    padding-right:2px;
 }
     input:{
     width: 100%;
