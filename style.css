@@ -136,6 +136,7 @@ nav{
     height:100px;
 }
 main{
+    width:100%;
     padding: 10px 5px;
     display: block;
  main img{
@@ -158,6 +159,8 @@ form button{
 }
  .signupimg,.signinimg {
     margin-top:0px;
+     width:5px;
+     height:5px;
     display: none;
 }
   #radbtn{
