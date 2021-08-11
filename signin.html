@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/KOYO.png">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Koyo/Sign In</title>
+</head>
+<body>
+      <header>
+        <nav>
+            <span class="brand">
+                <img src="images/KOYO.png">    
+            </span>
+            <ul class="nav-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Register</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Forum</a></li>
+            </ul>
+        </nav>
+        </header>
+    <main>
+        <div class="form-container">
+            <h1>Welcome,</h1>
+            <span id="resume">Resume where you left off</span>
+            <br><br>
+            <form action="#">
+                <label>
+                    <span>Email</span>
+                    <input type="email" placeholder="johndoe@example.com"required>
+                </label> 
+                <label>
+                    <span>Password</span> 
+                    <input type="password"id="password" minlength="8" placeholder="must contain one special character"required>
+                </label>
+                <a href="#" id="forgotpassword">Forgot Password?</a> 
+                <span><input type="checkbox" id="check">Remember me</span> <br>
+                <button class ="button" type="submit">Login</button>
+                <br>
+                <h3 id="signin-up">Don't have an account?<a href="index.html"> Sign Up</a></h3>
+            </form>
+        </div>
+   
+    <div class="signinimg"><img src="images/sigininimg.jpg"></div>
+    </main>
+</body>
+
+    
+</html>

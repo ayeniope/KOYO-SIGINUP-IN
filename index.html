@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/KOYO.png">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Koyo/Sign Up</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="brand">
+                <img src="images/KOYO.png" width="115px"height="115px">
+                
+            </span>
+            <ul class="nav-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Register</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-container">
+            <h1><strong>Hi,</strong></h1>
+            <span id="resume">Let's get you started</span>
+            <br><br>
+            <form action="#"> 
+                <label>
+                <span>Full Name</span>
+                <input type="text" placeholder="John Doe" required>
+                </label>  
+                <label>
+                    <span>Email</span>
+                    <input type="email" placeholder="johndoe@example.com"required>
+                </label> 
+                <label>
+                    <span>Password</span> 
+                    <input type="password"id="password" minlength="8" placeholder="must contain one special character"required>
+                </label>
+                <label>
+                <span>Country </span>
+                    <select id="country"> 
+                        <option>Select your country</option>
+                        <option>Nigeria</option>
+                        <option>Ghana </option>
+                        <option>Kenya </option>
+                        <option>Liberia </option>
+                        <option>Others</option>
+                    </select>
+                 </label>
+                <label id="radbtn">
+                    <input type="radio"id="rad">
+                    <span>Student</span>
+                </label>
+                <label id="radbtn">
+                    <input type="radio"id="rad">
+                    <span>Tutor</span>
+                </label>
+                <label id="radbtn">
+                    <input type="radio"id="rad">
+                    <span>Content Developer</span>
+                </label> 
+                <button class ="button" type="submit">Sign Up</button>
+                <br> 
+                <h3 id="signin-up">Already have an account?<a href="signin.html"> Login</a></h3>
+            </form>
+        </div>
+        <div class="signupimg"><img src="images/hello.jpg">
+        </div>
+    </main>
+</body>
+
+<script>
+        document.querySelector('.button').onclick=function(){
+            let password=document.querySelector('#password').value,
+            confirmpassword=document.querySelector('#confirmpassword').value;
+            if(password!=confirmpassword){
+                alert("password didn't match");
+                return false
+            }
+            else if (password==confirmpassword){
+                return true;}
+               
+        }
+    </script>
+</html>
