@@ -162,4 +162,6 @@ form button{
     width: 100%;
     margin-bottom: 10px;
     }
+   form label{
+       margin:50px;
 }
