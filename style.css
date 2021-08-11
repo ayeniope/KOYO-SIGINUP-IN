@@ -142,15 +142,16 @@ nav{
  main img{
      display: none;
  }
+  .form-container{ 
+   
  .form-container{
      width: 100%;
-    padding: 0px; 
+     padding: 10px 10px 10px 10px;
     line-height: 3vh;
  }
  input:not(#rad,#check),#country{
     font-size:8px;
-     margin-bottom:1px;
-     margin-top:30px
+     width:100px;
 }
 form button{ 
     padding:5px 40px;
