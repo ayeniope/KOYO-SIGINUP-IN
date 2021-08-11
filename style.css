@@ -63,7 +63,6 @@ form button{
     margin: center;
     justify-content: center;
     align-content: center;
-
     background: #f56e2c;
     color:white;
     cursor: pointer;
@@ -150,18 +149,19 @@ main img{
  }
  input:not(#rad,#check),#country{
     font-size:5px;
+     line-height:8vh;
      border-radius:5px;
      padding:3px 5px;
      width:100%;
 }
+input{
+        border-radius:5px;
+        margin-top:10px;}
 form button{ 
-    padding:5px 40px;
+    padding:5px 10px;
     font-size: 15px;
 }
  .signupimg,.signinimg {
-    margin-top:0px;
-     width:5px;
-     height:5px;
     display: none;
 }
   #radbtn{
