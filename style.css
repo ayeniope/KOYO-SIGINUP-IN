@@ -158,4 +158,8 @@ form button{
     margin-top:0px;
     display: none;
 }
+    input:{
+    width: 100%;
+    margin-bottom: 10px;
+    }
 }
