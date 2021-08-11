@@ -146,7 +146,7 @@ nav{
    
  .form-container{
      width: 100%;
-     padding: 10px 10px 10px 10px;
+     padding: 8px;
     line-height: 3vh;
  }
  input:not(#rad,#check),#country{
@@ -163,8 +163,6 @@ form button{
 }
     input:{
     width: 100%;
-    margin-bottom: 10px;
+/*     margin-bottom: 10px; */
     }
-   form label{
-        margin:30px 5px
 }
