@@ -144,7 +144,7 @@ main img{
  } 
  .form-container{
      width: 100%;
-     padding: 5px;
+/*      padding: 5px; */
     line-height: 2vh;
  }
  input:not(#rad,#check),#country{
