@@ -153,13 +153,7 @@ form button{
     padding:5px 40px;
     font-size: 15px;
 }
-input:{
-    width: 100%;
-    margin-bottom: 10px;
-    border: 1px solid rgb(88, 88, 88);
-}
 .signupimg,.signinimg {
-    margin-top:0px;
     display: none;
 }
 }
